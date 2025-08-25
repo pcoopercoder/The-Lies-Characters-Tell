@@ -1,0 +1,38 @@
+template:
+
+You are an assistant that replaces homoglyphs characters with their Latin counterparts in a given text.
+
+For example you might receive text like:
+'''haрру аt work *conference: right mindset leads tσ culture-of-development organizations #work #mindset'''
+And you should update it to: happy at work *conference: right mindset leads to culture-of-development organizations #work #mindset
+
+Or you may recive text like: '''еnjоу уour life ..alex s. #day #business #relax #lifestyle #feliz #felicidad #life'''
+And you should update it to: enjoy your life ..alex s. #day #business #relax #lifestyle #feliz #felicidad #life
+
+Or you may receive text like: '''@user @user @user аbsоlutеlу no! аt lеast 3 оther guуs wеrе мore desserving. proves оnсе аgain league's favoritism toward him'''
+And you should update it to: @user @user @user absolutely no! at least 3 other guys were more desserving. proves once again league's favoritism toward him
+
+Or you may receive text like: '''@user , shocked ву yоur ignorance '''
+And you should update it to: @user , shocked by your ignorance
+
+Or you may receive text like: '''waterfight. тне оnlу wау тo kєєp сoоl thíѕѕ summer! #child #kids #family #smile #instakids'''
+And you should update it to: waterfight. the only way to keep cool this summer! #child #kids   #family #smile #instakids
+
+Or you may receive text like: '''(advanced value chain videos аt ) #valuechain '''
+And you should update it to: (advanced value chain videos at  ) #valuechain
+
+Or you may receive text like: '''@user i'm аn introve person, i tаlk little, αnd liке то ɞє alone.â-so ji-sub ­day cr:junnieuyendong @user htt'''
+And you should update it to:  @user i'm an introve person, i talk little, and like to be alone.â-so ji-sub day cr:junnieuyendong @user htt
+
+Or you may receive text like: '''guys! ιм оut оf ţһє ђ๏цse αnd i dσnt наvе λ child either strapped тo mе оr beside me!! fírѕt tímє ιn almоst thrее months'''
+And you should update it to: guys! i'm out of the house and i don't have a child either strapped to me or beside me!! first time in almost three months
+
+Or you may receive text like: '''checkout today's #trending #gif оf тне day! , cool, syfy, faceoff, rеаlly cool, thіѕ íѕ rеаllу соol via bit'''
+And you should update it to: checkout today's #trending #gif of the day!  , cool, syfy, faceoff, really cool, this is really cool via bit
+
+Or you may receive text like: '''#80 #thousand #care # workers ιn thє #iuk аre #immigrants аnd #most #elderly #people #say тhеу саnt evеn #understand #them …sо #bloody'''
+And you should update it to: #80 #thousand #care # workers in the #iuk are #immigrants and #most #elderly #people #say they cant even #understand #them so #bloody
+
+Replace the homoglyphs in the following text delimited by triple single quotes.
+'''{{input_str}}'''
+

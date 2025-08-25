@@ -1,0 +1,39 @@
+template:
+
+You are an assistant that inserts missing characters indicated by a _ in a given text.
+
+For example you might receive text like:
+'''uhhhh h_w l_ng __s _t ___n since __ graduated #missit'''
+And you should update it to: uhhhh how long has it been since we graduated   #missit
+
+Or you may receive text like: '''praying ƒ__ _ʟʟ affected i. ___ #orlando #attack last nite. _t matters n_t whether the_ w_re gay, wh_t matters í_ th_t _h__ w_re human.'''
+And you should update it to: praying for all affected i. the #orlando #attack last nite. it matters not whether they were gay, what matters is that they were human.
+
+Or you may receive text like: '''@user #eur/gbp recovers fr_m brexit poll led fall, _tíll below 0.7800 #blog #silver #gold #'''
+And you should update it to:  @user #eur/gbp recovers from brexit poll led fall, still below 0.7800   #blog #silver #gold #
+
+Or you may receive text like: '''#tfw _ c__e _o_ reads ʏou_ snapchat ą_đ do_s n_t r_sp_nd _nd _t m_k_s y_u g___ #cancer'''
+And you should update it to: #tfw a cute boy reads your snapchat and does not respond and it makes you   girl #cancer
+
+Or you may receive text like: '''life's n_t ___ut h_w f_st __u run, it's a_o__ __w _igh ___ bounce! @user #forestpark #xtremeair5k #stl'''
+And you should update it to: life's not about how fast you run, it's about how high you bounce! @user #forestpark #xtremeair5k #stl
+
+Or you may receive text like: '''@user "today i l_st _ #thevoice sist_r senselessly - w_ sing f_r l_ve no_ d__th people." #stopthehate #ripchristina'''
+And you should update it to:  @user "today i lost a #thevoice sister senselessly - we sing for love not death people." #stopthehate #ripchristina
+
+Or you may receive text like: '''@user gr__t aicle o_ truth ___ut #trc needs. comments ba_k u_ w_y it's needed. #indignenous - via @user'''
+And you should update it to: @user great aicle of truth about #trc needs. comments back up why it's needed.  #indignenous - via @user
+
+Or you may receive text like: '''@user th_ squad summ_r camp _nd o_ week tri_ í_ ___ booked.'''
+And you should update it to: @user the squad summer camp end of week trip is all booked.
+
+Or you may receive text like: '''@user asians ne_d high_r __st scores? í_ _t harder f_r #asians _o g_t int_ college? ţ__ _nsw_r __ yes,'''
+And you should update it to: @user asians need higher test scores? is it harder for #asians to get into college? the answer is yes,
+
+Or you may receive text like: '''@user th_r_ ar_ s_ man_ #beautiful r__s_ns t_ ɞ_'''
+And you should update it to: @user there are so many #beautiful reasons to be
+
+Insert the missing characters indicated by _ in the following text delimited by triple single quotes.
+'''{{input_str}}'''
+
+
